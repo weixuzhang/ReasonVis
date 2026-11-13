@@ -1,0 +1,26 @@
+{
+  "sql_equivalence_threshold": 0.95,
+  "case_insensitive_comparison": true,
+  "visualization_type_normalization": true,
+  "save_detailed_results": true,
+  "generate_visualizations": false,
+  "evaluations": {
+    "sql_accuracy": true,
+    "vis_type_correctness": true,
+    "exact_vql_match": true,
+    "context_dependency": true,
+    "hardness_level": true,
+    "sequence_success": true,
+    "turn_progression": true
+  },
+  "custom_evaluator_settings": {
+    "skip_sql_execution": false,
+    "use_normalized_string_comparison": true,
+    "lenient_sql_comparison": false,
+    "lenient_vis_type_matching": true,
+    "aggressive_sql_normalization": false,
+    "lenient_result_comparison": false,
+    "sql_execution_timeout_seconds": 30,
+    "sql_progress_handler_steps": 10000
+  }
+}

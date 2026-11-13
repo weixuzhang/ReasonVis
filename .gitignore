@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+# Grounded databases (download with scripts/download_databases.sh)
+VisEval/
+# Dataset and experiment outputs
+data/
+runs/
+results/
+evaluation_results/
+*.log
